@@ -89,4 +89,41 @@
   font-size: 20px;
   line-height: 150%;
 }
+/*Styles for link start*/
 
+.link-decotarion {
+  text-decoration: none;
+}
+
+.link-decotarion:hover {
+  opacity: .5;
+}
+
+/*Styles for link end*/
+
+/*Custom button styles start*/
+
+.custom-button {
+  text-decoration: none;
+  display: inline-block;
+  max-width: 140px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 45px;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #524f4e;
+  background: white;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  transition: .3s;
+}
+.custom-button:hover {
+  background: #6495ED;
+  box-shadow: 0 15px 20px #9abdff;
+  color: white;
+  transform: translateY(-7px);
+}
+
+/*Custome button styles end*/
